@@ -1,0 +1,40 @@
+.input-box {
+    width: 100%;
+    padding: 2em 0;
+}
+
+.form {
+    background-color: #e0dfd5;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#cityNameInput {
+    padding: 10px;
+    width: 75%;
+    border: none;
+    background-color: white;
+    border-radius: 5px 0 0 5px;
+    font-size: 20px;
+}
+
+#units-dropdown {
+    /* text-align: center; */
+    width: 15%;
+    border: none;
+    background-color: white;
+    border-radius: 0;
+    font-size: 18px;
+}
+
+#submitButton {
+    width: 20%;
+    border: none;
+    background-color: white;
+    border-radius: 0 5px 5px 0;
+    font-size: 18px;
+}

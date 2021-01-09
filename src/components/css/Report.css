@@ -1,0 +1,76 @@
+.report {
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #22181c;
+}
+
+.card {
+    width: 30%;
+    height: 85%;
+    background-color: #aeffd8;
+    text-align: center;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.bg-img {
+    border-radius: 10px 10px 0 0;
+    border-bottom: 2px solid #312f2f;
+}
+
+.weather-main {
+    font-size: 2em;
+}
+
+.weather-desc {
+    font-size: 1.5em;
+    color: #312f2f;
+    margin: 0;
+    padding: 0;
+}
+
+#temperature {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.temp-box {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.temp-box span {
+    font-size: 4em;
+    color: #312f2f;
+}
+
+#extra {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.extra-box {
+    width: 50%;
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.extra-box span {
+    font-size: 2em;
+    color: #312f2f;
+}
